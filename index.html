@@ -1,7 +1,24 @@
 <!doctype html>
 <head>
+    <script src="pos.js"></script>
+    <script src="input.js"></script>
     <script src="ai.js"></script>
 </head>
 <body>
-    <canvas id="game" width="800" height="800" />
+    <canvas style="float: left; margin-right: 20px;" id="game" width="600" height="600"></canvas>
+    <h3>CONTROLS</h3>
+
+    <p>WASD to move the player character</p>
+
+    <p>B to switch to the Breadth-First Search algorithm</p>
+    <p>N to switch to the Depth-First Search algorithm</p>
+    <p>M to switch to the AStar Search algorithm</p>
+
+    <p>P/O to increase/decrease the monster movement speed</p>
+    <p>U to stop the monster from moving</p>
+
+    <p>C to toggle showing the tiles the monster's considering</p>
+    <p>X to toggle highlighting the monster's chosen path</p>
+
+    <p>Left-click to place tiles, R to toggle removing tiles instead</p>
 </body>
