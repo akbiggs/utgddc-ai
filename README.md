@@ -1,7 +1,8 @@
 utgddc-ai
 =========
 
-AI Demo for a University of Toronto Game Dev Club talk.
+AI Demo for a University of Toronto Game Dev Club talk. The demo can be played
+[here](http://akbiggs.github.io/utgddc-ai).
 
 This demo uses Canvas in HTML5. For a reference on the <canvas> element and what you can do with it,
 see [this page on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API).
